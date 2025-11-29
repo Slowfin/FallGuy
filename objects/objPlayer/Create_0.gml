@@ -8,10 +8,16 @@ onObject = false
 dive = false
 jumpReload = 0
 cantRide = 0
+partTime = 0
 
 ownObject = 0
 
-angle = 0
+angle = 90
 shakePower = 0
 
-global.fallSpd = 0.7
+global.fallSpd = 2
+vsp = 0
+grv = 0.03
+swim = false
+
+randomize()

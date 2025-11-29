@@ -1,8 +1,8 @@
-if objPlayer.y > -10 {
+if place_meeting(x,y,objPlayer) {
 	fall = true
 }
 
 if fall {
- y = lerp(y,-30,0.1)
  objPlayer.spd = 0
+ objPlayer.vsp = 0
 }

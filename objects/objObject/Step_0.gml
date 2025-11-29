@@ -4,7 +4,7 @@ if id != objPlayer.ownObject {
 angle += spd
 }
 
-if y > objPlayer.y + 300 {
+if y > objPlayer.y + 300 or y < objPlayer.y - 300 {
 	instance_destroy()	
 }
 

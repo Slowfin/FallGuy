@@ -9,7 +9,7 @@
   "backdropYOffset":0.0,
   "drawOrder":0,
   "emitters":[
-    {"$GMPSEmitter":"","%Name":"Emitter","additiveBlend":true,"directionIncrease":0.0,"directionMax":90.0,"directionMin":90.0,"directionWiggle":0.0,"distribution":0,"editorColour":1090496918,"editorDrawShape":true,"emitCount":1,"emitDelayMax":0.0,"emitDelayMin":0.0,"emitDelayUnits":0,"emitIntervalMax":0.0,"emitIntervalMin":0.0,"emitIntervalUnits":0,"enabled":true,"endColour":16777215,"GMPresetName":null,"gravityDirection":270.0,"gravityForce":0.0,"headPosition":0.0,"lifetimeMax":80.0,"lifetimeMin":80.0,"linkedEmitter":null,"locked":false,"midColour":3103784959,"mode":1,"name":"Emitter","orientationIncrease":0.0,"orientationMax":0.0,"orientationMin":90.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":760.95154,"regionW":1357.9418,"regionX":0.0,"regionY":0.0,"resourceType":"GMPSEmitter","resourceVersion":"2.0","scaleX":100.0,"scaleY":1.0,"shape":0,"sizeIncrease":0.0,"sizeMax":1.0,"sizeMin":0.5,"sizeWiggle":0.0,"spawnOnDeathCount":1,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":1,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":0.0,"speedMax":6.0,"speedMin":5.0,"speedWiggle":0.0,"spriteAnimate":false,"spriteId":null,"spriteRandom":false,"spriteStretch":true,"startColour":16777215,"texture":0,},
+    {"$GMPSEmitter":"","%Name":"Emitter","additiveBlend":true,"directionIncrease":0.0,"directionMax":90.0,"directionMin":90.0,"directionWiggle":0.0,"distribution":0,"editorColour":1090496918,"editorDrawShape":true,"emitCount":1,"emitDelayMax":0.0,"emitDelayMin":0.0,"emitDelayUnits":0,"emitIntervalMax":0.0,"emitIntervalMin":0.0,"emitIntervalUnits":0,"enabled":true,"endColour":16777215,"GMPresetName":null,"gravityDirection":270.0,"gravityForce":0.0,"headPosition":0.0,"lifetimeMax":80.0,"lifetimeMin":30.0,"linkedEmitter":null,"locked":false,"midColour":2499804928,"mode":1,"name":"Emitter","orientationIncrease":0.0,"orientationMax":0.0,"orientationMin":90.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":638.4155,"regionW":436.7296,"regionX":149.0,"regionY":8.0,"resourceType":"GMPSEmitter","resourceVersion":"2.0","scaleX":100.0,"scaleY":1.5,"shape":0,"sizeIncrease":0.0,"sizeMax":1.0,"sizeMin":0.5,"sizeWiggle":0.0,"spawnOnDeathCount":1,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":1,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":0.0,"speedMax":6.0,"speedMin":5.0,"speedWiggle":0.0,"spriteAnimate":false,"spriteId":null,"spriteRandom":false,"spriteStretch":true,"startColour":16777215,"texture":0,},
   ],
   "name":"parWind",
   "parent":{
@@ -21,5 +21,5 @@
   "showBackdrop":true,
   "showBackdropImage":false,
   "xorigin":0,
-  "yorigin":0,
+  "yorigin":13,
 }
