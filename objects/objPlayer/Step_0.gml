@@ -10,6 +10,9 @@ if !mouse_check_button(mb_left) {
 	} else {
 	spd = (jumpCharge / 11) 	
 	}
+	if jumpCharge > 75 {
+		salto = true	
+	}
 	partTime = 15
 	jumpCharge = 0
 	jumpReload = 60
@@ -17,7 +20,6 @@ if !mouse_check_button(mb_left) {
 	onObject = false
 	cantRide = 10
 	image_index = 0
-	swim = true
 	} else {
 		jumpCharge = 0
 	}
@@ -132,13 +134,16 @@ if vsp >= 3  {
 	part_particles_burst(fallPart,x,y,parFall)
 }
 	
-if mouse_check_button_pressed(mb_left) {
+if mouse_check_button(mb_left){
 	if mouse_x > x  {
 	image_yscale = -1	
 } if mouse_x < x  {
 	image_yscale = 1	
 } }
-	if swim {
+	if salto {
+		sprite_index = sprPlayerSalto
+	}
+	else if swim {
 		sprite_index = sprPlayerSwim
 	}
 	else if vsp >= 3 {
@@ -149,4 +154,7 @@ if mouse_check_button_pressed(mb_left) {
 	
 	if swim = true and image_index >= image_number -1 {
 		swim = false
+	}
+	if salto = true and image_index >= image_number -1 {
+		salto = false
 	}

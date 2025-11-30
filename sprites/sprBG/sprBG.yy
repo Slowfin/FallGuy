@@ -19,6 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"bc4582bf-0f51-4d58-bfd7-a9d337ceb605","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"bc4582bf-0f51-4d58-bfd7-a9d337ceb605","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"390ad055-a816-43b9-9ba9-f08aa2fbbe5e","blendMode":0,"displayName":"default","isLocked":false,"name":"390ad055-a816-43b9-9ba9-f08aa2fbbe5e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprBG",

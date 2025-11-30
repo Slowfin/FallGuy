@@ -1,3 +1,5 @@
+randomize()
+
 spd = 0
 jumpCharge = 0
 maxJumpCharge = 100
@@ -19,5 +21,8 @@ global.fallSpd = 2
 vsp = 0
 grv = 0.03
 swim = false
+salto = false
 
-randomize()
+	image_yscale = -1	
+
+

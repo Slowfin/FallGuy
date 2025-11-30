@@ -31,11 +31,12 @@ if flyTime <= 0  {
 	objPlayer.onObject = 0
 	var yDiff = mouse_y - objPlayer.y
 	objPlayer.vsp = sign(yDiff) * 1
-	if mouse_x > x  {
-	image_yscale = -1	
-} if mouse_x < x  {
-	image_yscale = 1	
-}
+	if mouse_x > objPlayer.x  {
+	objPlayer.image_yscale = -1	
+} if mouse_x < objPlayer.x  {
+	objPlayer.image_yscale = 1	
+}	var boomPart = part_system_create(parExplosion)
+	part_particles_burst(boomPart,x,y,parExplosion)
 }
 
 if place_meeting(x,y,objRocket) and id == objPlayer.ownObject and objPlayer.onObject {
